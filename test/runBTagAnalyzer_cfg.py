@@ -843,6 +843,11 @@ if options.fastSim :
 if options.doBoostedCommissioning:
   options.outFilename += '_BoostedCommissioning' 
 
+options.outFilename += '_'
+options.outFilename += requiredGroup
+options.outFilename += '_1805'
+
+
 options.outFilename += '.root'
 
 ## Output file
